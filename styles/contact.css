@@ -1,0 +1,29 @@
+#navbar> a >img{
+	height: 30px;
+	width: 70px;
+}
+body{
+	height: 100%;
+	background-image: url(https://mocah.org/uploads/posts/500944-simple-background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#navbar{
+	background-color: transparent;
+}
+#navbar> .navbar-brand{
+	margin-left: 50px;
+
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	margin-left: 50px;
+
+}
+
+form>#textarea{
+	width: auto;
+	height: 1000px;
+}
