@@ -1,49 +1,75 @@
 *{
 	font-family: 'Open Sans', sans-serif;
 }
-
+body{
+	height: 100%;
+	background-image: url(https://mocah.org/uploads/posts/500944-simple-background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;	
+}
 #navbar> a >img{
 	height: 30px;
 	width: 70px;
 }
-body{
-	height: 100%;
-	background-image: url(https://mocah.org/uploads/posts/500944-simple-background.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-#navbar{
-	background-color: transparent;
+
+#navbar:hover{
+	/*background-color: transparent;*/
+	/*background-image: url(https://mocah.org/uploads/posts/500944-simple-background.jpg);*/
+	background-color: rgba(255,255,255,1);
 }
 #navbar> .navbar-brand{
 	margin-left: 50px;
 
 }
+#homepage{
+	margin-top: 60px;
+}
+@media only screen and (max-device-width: 2560px){
+	div > #Homepage-picture img{
+		height: 800px;
+		width: 1200px;
+	}
+}
+@media only screen and (max-device-width: 1980px){
+	div > #Homepage-picture img{
+		height: 400px;
+		width: 600px;
 
-div > #Homepage-picture img{
-	height: 400px;
-	width: 600px;
+	}
+}
+@media only screen and (max-device-width: 1000px){
+	div > #Homepage-picture img{
+		height: 400px;
+		width: 400px;
+	}
+}
+@media only screen and (max-device-width: 768px){
+	div > #Homepage-picture img{
+		height: 200px;
+		width: 320px;
+	}
 }
 
-div > #Homepage-picture> div > #textmessage{
-	padding-top: 200px;
-	text-align: center;
-	height: 400px;
-	width: 600px;
-	background-color: transparent;
-
-
-}
 div > #Homepage-picture h4{
 	color:black;
 }
-div > #Homepage-picture {
-	margin-left: 50px;
-	padding-top: 20px;
+@media only screen and (min-device-width: 1254px){
+	div > #Homepage-picture {
+		margin-left: 50px;
+		padding-top: 20px;
+	}
 }
-footer {
-	position: absolute;
-	margin-top: 50px;
-	margin-left: 50px;
+.footer,.push{
+	height: 25px;
+}
+.footer {
+	bottom: 0;
+	padding-top: 8px;
+	margin-top: 5px;
+	padding-left: 10px;
+}
+.strong {
+	font-weight: bold;
 }

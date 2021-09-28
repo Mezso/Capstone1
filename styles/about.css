@@ -1,24 +1,47 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
 #navbar > a >img{
 		height: 30px;
 		width: 70px;
 }
 
-#first > div > ul {
+#first > div ul {
 	list-style: none;
 }
 body{
 	height: 100%;
 	background-image: url(https://mocah.org/uploads/posts/500944-simple-background.jpg);
-	background-position: center;
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;	
+}
+div >#contact {
+	background-color: rgba(255,255,255,1)
+}
+#navbar:hover{
+	/*background-color: transparent;*/
+	/*background-image: url(https://mocah.org/uploads/posts/500944-simple-background.jpg);*/
+	background-color: rgba(255,255,255,1);
 }
 
 #navbar> .navbar-brand{
 	margin-left: 50px;
 
 }
-footer {
-	margin-left: 50px;
+div > #first  p, li{
+	text-align: justify;
+}
+div > #first h5{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.footer {
+	padding-left: 10px;
 	margin-top: 100px;
+}
+.strong {
+	font-weight: bold;
 }
