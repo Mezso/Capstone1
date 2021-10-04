@@ -16,6 +16,10 @@
 	<!-- Bootstrap CDN CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/4d884bb0cd.js" crossorigin="anonymous"></script>
+
+
 	<!-- External CSS -->
 	<link rel="stylesheet" type="text/css" href="./styles/index.css">
 </head>
@@ -26,7 +30,7 @@
 
 	<!-- Start Of Nav Bar -->
 
-	<nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light ">
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-light ">
 		<a class="navbar-brand" href="./index.html">
 			<img class="p-0 m-0" src="./images/logo-resize1.png" alt="logo" >
 		</a>
@@ -37,14 +41,14 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto strong m-0">
-				<li class="nav-item active ">
-					<a class="nav-link " href="./index.html">Home <span class="sr-only">(current)</span></a>
+				<li class="nav-item ">
+					<a class="nav-link " href="#homepage">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item ">
-					<a class="nav-link" href="./about.html">About Me</a>
+					<a class="nav-link" href="#about">About Me</a>
 				</li>
 				<li class="nav-item ">
-					<a class="nav-link" href="./contact.html">Contact Me</a>
+					<a class="nav-link" href="#contact">Contact Me</a>
 				</li>
 
 
@@ -58,67 +62,160 @@
 	<div class="container-fluid">
 
 		<div id="homepage" class="row">
-			<div class="col-12 col-md-6 ml-auto ">
-				<h1>Carlo Website Design</h1>
-				<h2>If you are looking for a great web designer to create and design your ideal website, you came to the right place.</h2>
+			<div class="col-12 col-md-6 mx-auto">
+				<h1 class="text-center ">Carlo Website Design</h1>
+				<h2 class="text-justify">If you are looking for a great web designer to create and design your ideal website, you came to the right place.</h2>
 			</div>
 		</div>
-		<!-- Start of carosel -->
-		<div class="row">
-			<div class="col-12 col-md-6 ">	
-				<div id="Homepage-picture" class="carousel slide " data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#home-page" data-slide-to="0" class="active"></li>
-						<li data-target="#home-page" data-slide-to="1"></li>
-						<li data-target="#home-page" data-slide-to="2"></li>
-						<li data-target="#home-page" data-slide-to="3"></li>
-					</ol>
-					<div class="carousel-inner ">
-						<div class="carousel-item active ">
-							<img src="./images/front-end-word-concepts-banner-web-applications-programming_106317-84.jpg" class=" d-block " alt="front-end">
-							<div class="carousel-caption d-none d-md-block ">
+		<div class="container-fluid">
+			<!-- Start of carosel -->
+			<div class="row">
+				<div class="col-12 col-md-6 mx-auto">	
+					<div id="Homepage-picture" class="carousel slide " data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#home-page" data-slide-to="0" class="active"></li>
+							<li data-target="#home-page" data-slide-to="1"></li>
+							<li data-target="#home-page" data-slide-to="2"></li>
+							<li data-target="#home-page" data-slide-to="3"></li>
+						</ol>
+						<div class="carousel-inner  ">
+							<div class="carousel-item active ">
+								<img src="./images/front-end-word-concepts-banner-web-applications-programming_106317-84.jpg" class=" d-block " alt="front-end">
+								<div class="carousel-caption d-none d-md-block ">
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="./images/back-end-development-banner-concept-vector-9074132.jpg" class=" d-block" alt="back-end">
+								<div class="carousel-caption d-none d-md-block ">
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="./images/images.png" class=" d-block " alt="full-stack">
+								<div class="carousel-caption d-none d-md-block">
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img src="./images/here-help-symbol-male-hand-260nw-1865963332.jpg" class=" d-block " alt="help">
+								<div class="carousel-caption d-none d-md-block">
+								</div>
 							</div>
 						</div>
-						<div class="carousel-item">
-							<img src="./images/back-end-development-banner-concept-vector-9074132.jpg" class=" d-block" alt="back-end">
-							<div class="carousel-caption d-none d-md-block ">
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img src="./images/images.png" class=" d-block " alt="full-stack">
-							<div class="carousel-caption d-none d-md-block">
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img src="./images/here-help-symbol-male-hand-260nw-1865963332.jpg" class=" d-block " alt="help">
-							<div class="carousel-caption d-none d-md-block">
-							</div>
-						</div>
+						<a class="carousel-control-prev" href="#Homepage-picture" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#Homepage-picture" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
 					</div>
-					<a class="carousel-control-prev" href="#Homepage-picture" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#Homepage-picture" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
 				</div>
 			</div>
-			
 		</div>
 		<!-- End of carosel -->
-		
-		<div class="push mt5"></div>
-	</div>
-		<footer class="footer">
-			<span>Copyright&copy; 2021 Carlo Web Design. All Rights Reserved</span>
-		</footer>
-	<!-- End of Content -->
 
-	<!-- Bundle Script -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+		<!-- Start of about -->
+		<div class="container-fluid">
+			<div id="about" class="row mt-5 pt-5">
+				<div class="col-12 col-md-6 mx-auto text-center">
+					<img class="w-25 " src="https://cdn.icon-icons.com/icons2/2643/PNG/512/male_boy_person_people_avatar_icon_159358.png" alt="profile"><!-- profile picture -->
+					<h2>A little about myself</h2>
+					<h4>Who I am?</h4>
+					<div class="text-justify">
+						<p>Hello I'm Carlo San Jose, live at San Mateo Rizal</p>
+						<p>Electronics Engineer graduated at Technological Institute of the Philippines, 2012-2017.</p>
+						<p>Jr. Software Engineer at Kernel Philippines Inc, Nov 2018 - present </p>
+					</div>
+					<div>
+						<h4 class="p-3">What are my skills</h4>
+						<img src="./images/1200px-C_Programming_Language.svg.png" alt="skills">
+						<img src="./images/2048px-Octicons-mark-github.svg.png" alt="skills">
+						<img src="./images/CSS3.png" alt="skills">
+						<img src="./images/html.png" alt="skills">
+						<img src="./images/javascript.png" alt="skills">
+						<img src="./images/gitlab.png" alt="skills">
+					</div>
+					<div>
+						<h4 class="p-3">What are my Hobbies</h4>
+						<img src="./images/running.png" alt="hobby">
+						<img src="./images/cycling.jpg" alt="hobby">
+						<img src="./images/swimming.jpg" alt="hobby">
+						<img src="./images/hiking.jpg" alt="hobby">
+						<img src="./images/anime.jpg" alt="hobby">
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<!-- End of About -->
+
+		<!-- Start of Contact -->
+		<div class="container-fluid">
+			<div id="contact" class="row">
+				<div class="col-12 col-md-6 mx-auto p-5">
+					<div class="text-center">
+						<h3 class="d-inline">Contact me thru</h3>
+						<a href="https://www.facebook.com/weeewoo0/">
+							<img src="./images/facebook1.png" alt="images" >
+						</a>
+						<a href="https://twitter.com/callmecarl0">
+							<img src="./images/60580.png" alt="images">
+						</a>
+						<a href="https://github.com/Mezso">
+							<img src="./images/github.png" alt="images">
+						</a>
+						<a href="https://gitlab.com/Mezso">
+							<img src="./images/gitlab.png" alt="images">
+						</a>
+					</div>
+					<div>
+						<h5 class="text-center">OR</h5>
+					</div>
+					<div>
+						<h4 class="text-center">Leave a Message</h4>
+					</div>
+
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input type="text" class="form-control" id="name">
+						</div>
+						<div class="form-row">
+							<div class="form-group col-12 col-md-8">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" id="email" >
+							</div>
+							<div class="form-group col-12 col-md-4">
+								<label for="contact">Contact</label>
+								<input type="tel" class="form-control" id="telphone" >
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<input type="text" class="form-control" id="subject">
+						</div>
+						<div class="form-group">
+							<label for="textarea">Your Inquiry</label>
+							<textarea class="form-control" id="textarea" rows="7"></textarea>
+						</div>
+						<div class="text-center">
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End of Content -->
+<footer class="footer">
+				<span>Copyright &copy; 2021 Carlo Web Design. All Rights Reserved</span>
+			</footer>
+<!-- Bundle Script -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 </body>
 </html>
